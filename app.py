@@ -105,5 +105,4 @@ def server(input, output, session):
 
 app = App(app_ui, server)
 
-#expose the WSGI server for Gunicorn
-server=app.server
+
